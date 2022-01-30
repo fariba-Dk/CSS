@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>I'm a CSS Master</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <h5>Tables in CSS, Styling of Tables thru HTML is DEPRECATED 👎🏽</h>
+    <p>Tables have headers body and footer mirroring like html. <thead></thead> and <tbody></tbody> and <tfooter></tfooter> creates structor of the container.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Date can go here!</th>
+            </tr>           
+        </thead>
+        <tbody>
+            <tr>This is Table Rows</tr>
+            <td>Data</td>
+        </tbody>
+        <tfooter>
+            <tr>This is Table Footer</tr>
+        </tfooter>
+    </table>
+    <hr>
+    <hr>
+    <h1>Forms</h1>
+    <p>Forms NEEDS LABLE AND INPUT. Forms can do many things, but we need to define its functionality! Notice: "action", "method", "lable", "input tag is self-closing"</p>
+    <p>*** Forms need Label!!! has "for"="say">What greeting do you want to say? /label</p>
+    <p>*** Forms need Input!! has "name","id" and "valut"</p>
+    <p>*** Button is for submitting</p>
+
+    <h5>See example below:</h5>
+    <form
+        action="http://www.foo.com"
+        method="GET"
+    >
+        <div>
+            <label for="say">What greeting do you want to say?</label>
+            <input
+                name="say"
+                id="say"
+                value="Hi"
+            >
+        </div>
+        <div>
+            <label for="to">Who do you want to say it to?</label>
+            <input
+                name="to"
+                id="to"
+                value="Mom"
+            >
+        </div>
+        <div>
+            <button>Send my greetings</button>
+        </div>
+    </form>
+   
+</body>
+</html>
